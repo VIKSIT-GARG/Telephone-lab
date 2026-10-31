@@ -1,0 +1,80 @@
+{
+  "mode": "synthetic-engineering-mutations",
+  "headline_eligible": false,
+  "human_reviewed": false,
+  "skipped_unhandled": 20,
+  "by_type": {
+    "time": {
+      "injected": 2,
+      "flagged": 2,
+      "control_flags": 0,
+      "controls": 2,
+      "recall": 1,
+      "precision": 1
+    },
+    "numbers": {
+      "injected": 3,
+      "flagged": 3,
+      "control_flags": 0,
+      "controls": 3,
+      "recall": 1,
+      "precision": 1
+    },
+    "phone": {
+      "injected": 6,
+      "flagged": 6,
+      "control_flags": 0,
+      "controls": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    "qualifiers": {
+      "injected": 4,
+      "flagged": 4,
+      "control_flags": 0,
+      "controls": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    "negation": {
+      "injected": 6,
+      "flagged": 6,
+      "control_flags": 0,
+      "controls": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    "conditions": {
+      "injected": 4,
+      "flagged": 4,
+      "control_flags": 0,
+      "controls": 4,
+      "recall": 1,
+      "precision": 1
+    },
+    "certainty": {
+      "injected": 3,
+      "flagged": 3,
+      "control_flags": 0,
+      "controls": 3,
+      "recall": 1,
+      "precision": 1
+    },
+    "places": {
+      "injected": 6,
+      "flagged": 6,
+      "control_flags": 0,
+      "controls": 6,
+      "recall": 1,
+      "precision": 1
+    },
+    "ordering": {
+      "injected": 6,
+      "flagged": 6,
+      "control_flags": 0,
+      "controls": 6,
+      "recall": 1,
+      "precision": 1
+    }
+  }
+}

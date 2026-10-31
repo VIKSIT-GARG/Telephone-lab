@@ -1,0 +1,346 @@
+{
+  "mode": "real",
+  "recorded": true,
+  "date": "2026-10-31T07:27:10.317Z",
+  "status": "blocked",
+  "full_protocol_complete": false,
+  "summary": [
+    {
+      "scenario": "flood",
+      "chain": "A",
+      "version": "baseline",
+      "cfs": {
+        "mean": 0.42857142857142855,
+        "low": null,
+        "high": null,
+        "n": 1,
+        "method": "CI unavailable for N<2",
+        "exploratory": true
+      },
+      "danger": {
+        "mean": 1,
+        "low": null,
+        "high": null,
+        "n": 1,
+        "method": "CI unavailable for N<2",
+        "exploratory": true
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 3
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 3,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 3,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 0,
+          "altered": 3,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 3,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 0,
+          "altered": 3,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 1,
+          "altered": 2,
+          "dropped": 0,
+          "unverified": 0
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "limited-testing"
+    },
+    {
+      "scenario": "flood",
+      "chain": "A",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "flood",
+      "chain": "B",
+      "version": "baseline",
+      "cfs": {
+        "mean": 0.5714285714285714,
+        "low": null,
+        "high": null,
+        "n": 1,
+        "method": "CI unavailable for N<2",
+        "exploratory": true
+      },
+      "danger": {
+        "mean": 1,
+        "low": null,
+        "high": null,
+        "n": 1,
+        "method": "CI unavailable for N<2",
+        "exploratory": true
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 4
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 1,
+          "altered": 3,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 4,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 0,
+          "altered": 4,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 4,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 0,
+          "altered": 4,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 4,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "limited-testing"
+    },
+    {
+      "scenario": "flood",
+      "chain": "B",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "A",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "A",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "B",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "B",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "A",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "A",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "B",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "B",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    }
+  ],
+  "effect_sizes": [
+    {
+      "scenario": "flood",
+      "chain": "A",
+      "baseline_n": 1,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": false,
+      "interpretation": "Selection used training A only; assess hold-out independently."
+    },
+    {
+      "scenario": "flood",
+      "chain": "B",
+      "baseline_n": 1,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": false,
+      "interpretation": "Selection used training A only; assess hold-out independently."
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "A",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": false,
+      "interpretation": "Selection used training A only; assess hold-out independently."
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "B",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": false,
+      "interpretation": "Selection used training A only; assess hold-out independently."
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "A",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": false,
+      "interpretation": "Selection used training A only; assess hold-out independently."
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "B",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": false,
+      "interpretation": "Selection used training A only; assess hold-out independently."
+    }
+  ],
+  "selected": {},
+  "independent_samples": [],
+  "blocked": [
+    "Pilot does not select optimized messages from one trial.",
+    "Sarvam could not be reached or timed out. Please retry. No fallback was used.",
+    "Configured call/spend cap reached; resume with an explicit larger cap."
+  ],
+  "failure_history": [],
+  "ledger": {
+    "calls": 24,
+    "reserved_micro_inr": 535455,
+    "actual_micro_inr": 535455,
+    "protocol_hash": "bcf323282725498df259301b1037ebb9935f15c64f5f12c078199ebc4e0a2af3"
+  },
+  "aggregation": {
+    "generated_at": "2026-10-31T08:16:47.733Z",
+    "cfs_ci": "whole-trial percentile bootstrap, 2000 resamples",
+    "danger_ci": "Wilson 95%",
+    "denominator": "completed chain records only; provider failures and incomplete chains are retained separately and not scored. This conditional denominator may bias CFS.",
+    "human_validation": false
+  }
+}

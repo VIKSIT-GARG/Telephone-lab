@@ -1,0 +1,573 @@
+{
+  "mode": "real",
+  "recorded": true,
+  "date": "2026-10-31T07:39:03.453Z",
+  "status": "blocked",
+  "full_protocol_complete": false,
+  "summary": [
+    {
+      "scenario": "flood",
+      "chain": "A",
+      "version": "baseline",
+      "cfs": {
+        "mean": 0.5142857142857142,
+        "low": 0.47142857142857136,
+        "high": 0.557142857142857,
+        "n": 10,
+        "method": "percentile bootstrap, 2000 resamples",
+        "exploratory": false
+      },
+      "danger": {
+        "mean": 1,
+        "low": 0.7224672001371218,
+        "high": 0.9999999999999999,
+        "n": 10,
+        "method": "Wilson 95% interval",
+        "exploratory": false
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 2,
+          "dropped": 0,
+          "unverified": 28
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 24,
+          "altered": 6,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 28,
+          "altered": 2,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 2,
+          "altered": 28,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 30,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 1,
+          "altered": 29,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 25,
+          "altered": 5,
+          "dropped": 0,
+          "unverified": 0
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "complete"
+    },
+    {
+      "scenario": "flood",
+      "chain": "A",
+      "version": "optimized",
+      "cfs": {
+        "mean": 0.4999999999999999,
+        "low": 0.45714285714285713,
+        "high": 0.5428571428571428,
+        "n": 10,
+        "method": "percentile bootstrap, 2000 resamples",
+        "exploratory": false
+      },
+      "danger": {
+        "mean": 1,
+        "low": 0.7224672001371218,
+        "high": 0.9999999999999999,
+        "n": 10,
+        "method": "Wilson 95% interval",
+        "exploratory": false
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 4,
+          "dropped": 0,
+          "unverified": 26
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 24,
+          "altered": 6,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 29,
+          "altered": 1,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 1,
+          "altered": 29,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 30,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 0,
+          "altered": 30,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 23,
+          "altered": 7,
+          "dropped": 0,
+          "unverified": 0
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "complete"
+    },
+    {
+      "scenario": "flood",
+      "chain": "B",
+      "version": "baseline",
+      "cfs": {
+        "mean": 0.4999999999999999,
+        "low": 0.4428571428571428,
+        "high": 0.557142857142857,
+        "n": 10,
+        "method": "percentile bootstrap, 2000 resamples",
+        "exploratory": false
+      },
+      "danger": {
+        "mean": 1,
+        "low": 0.7224672001371218,
+        "high": 0.9999999999999999,
+        "n": 10,
+        "method": "Wilson 95% interval",
+        "exploratory": false
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 13,
+          "dropped": 0,
+          "unverified": 27
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 27,
+          "altered": 13,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 34,
+          "altered": 6,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 4,
+          "altered": 36,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 40,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 0,
+          "altered": 36,
+          "dropped": 4,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 34,
+          "altered": 6,
+          "dropped": 0,
+          "unverified": 0
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "complete"
+    },
+    {
+      "scenario": "flood",
+      "chain": "B",
+      "version": "optimized",
+      "cfs": {
+        "mean": 0.5285714285714286,
+        "low": 0.45714285714285713,
+        "high": 0.6,
+        "n": 10,
+        "method": "percentile bootstrap, 2000 resamples",
+        "exploratory": false
+      },
+      "danger": {
+        "mean": 1,
+        "low": 0.7224672001371218,
+        "high": 0.9999999999999999,
+        "n": 10,
+        "method": "Wilson 95% interval",
+        "exploratory": false
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 5,
+          "dropped": 0,
+          "unverified": 35
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 35,
+          "altered": 5,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 34,
+          "altered": 4,
+          "dropped": 0,
+          "unverified": 2
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 7,
+          "altered": 32,
+          "dropped": 0,
+          "unverified": 1
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 40,
+          "altered": 0,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 2,
+          "altered": 37,
+          "dropped": 1,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 32,
+          "altered": 7,
+          "dropped": 0,
+          "unverified": 1
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "complete"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "A",
+      "version": "baseline",
+      "cfs": {
+        "mean": 0.4714285714285714,
+        "low": 0.3999999999999999,
+        "high": 0.5428571428571427,
+        "n": 10,
+        "method": "percentile bootstrap, 2000 resamples",
+        "exploratory": false
+      },
+      "danger": {
+        "mean": 1,
+        "low": 0.7224672001371218,
+        "high": 0.9999999999999999,
+        "n": 10,
+        "method": "Wilson 95% interval",
+        "exploratory": false
+      },
+      "per_fact_mutations": {
+        "f1": {
+          "kind": "place",
+          "preserved": 0,
+          "altered": 10,
+          "dropped": 0,
+          "unverified": 20
+        },
+        "f2": {
+          "kind": "time",
+          "preserved": 22,
+          "altered": 8,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f3": {
+          "kind": "date",
+          "preserved": 27,
+          "altered": 1,
+          "dropped": 2,
+          "unverified": 0
+        },
+        "f4": {
+          "kind": "quantity",
+          "preserved": 3,
+          "altered": 25,
+          "dropped": 0,
+          "unverified": 2
+        },
+        "f5": {
+          "kind": "phone",
+          "preserved": 28,
+          "altered": 2,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f6": {
+          "kind": "condition",
+          "preserved": 0,
+          "altered": 30,
+          "dropped": 0,
+          "unverified": 0
+        },
+        "f7": {
+          "kind": "action",
+          "preserved": 29,
+          "altered": 1,
+          "dropped": 0,
+          "unverified": 0
+        }
+      },
+      "length_ratio": 1,
+      "required_n": 10,
+      "status": "complete"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "A",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "B",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "B",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "A",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "A",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "B",
+      "version": "baseline",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "B",
+      "version": "optimized",
+      "cfs": null,
+      "danger": null,
+      "per_fact_mutations": {},
+      "length_ratio": null,
+      "required_n": 10,
+      "status": "not-run"
+    }
+  ],
+  "effect_sizes": [
+    {
+      "scenario": "flood",
+      "chain": "A",
+      "baseline_n": 10,
+      "optimized_n": 10,
+      "cfs_difference": {
+        "mean": -0.014285714285714346,
+        "low": -0.07142857142857145,
+        "high": 0.05714285714285705,
+        "baseline_n": 10,
+        "optimized_n": 10,
+        "method": "independent whole-trial percentile bootstrap, 2000 resamples"
+      },
+      "same_message_selected": true,
+      "interpretation": "Optimizer retained original; repeated-run differences are not rewrite efficacy."
+    },
+    {
+      "scenario": "flood",
+      "chain": "B",
+      "baseline_n": 10,
+      "optimized_n": 10,
+      "cfs_difference": {
+        "mean": 0.028571428571428692,
+        "low": -0.05714285714285716,
+        "high": 0.12857142857142861,
+        "baseline_n": 10,
+        "optimized_n": 10,
+        "method": "independent whole-trial percentile bootstrap, 2000 resamples"
+      },
+      "same_message_selected": true,
+      "interpretation": "Optimizer retained original; repeated-run differences are not rewrite efficacy."
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "A",
+      "baseline_n": 10,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": true,
+      "interpretation": "Optimizer retained original; repeated-run differences are not rewrite efficacy."
+    },
+    {
+      "scenario": "cyclone",
+      "chain": "B",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": true,
+      "interpretation": "Optimizer retained original; repeated-run differences are not rewrite efficacy."
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "A",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": true,
+      "interpretation": "Optimizer retained original; repeated-run differences are not rewrite efficacy."
+    },
+    {
+      "scenario": "heatwave",
+      "chain": "B",
+      "baseline_n": 0,
+      "optimized_n": 0,
+      "cfs_difference": null,
+      "same_message_selected": true,
+      "interpretation": "Optimizer retained original; repeated-run differences are not rewrite efficacy."
+    }
+  ],
+  "selected": {
+    "flood": {
+      "message": "Fictional flood drill: Rampur village residents must evacuate to the school by 6 PM on 17 August 2030. Bring 2 bottles of water per person. Call 98765 43210 for transport. Leave only if the river crosses the red mark. Do not use the market bridge.",
+      "source": "training-A-only",
+      "frozen_before_holdout": true
+    },
+    "cyclone": {
+      "message": "Fictional cyclone drill: Neelpur village residents must move to the community shelter by 9 AM on 5 September 2030. Bring at least 3 litres of water per family. Call 1800 123 4567 for assistance. Leave only if the evacuation alarm sounds. Do not return until the all-clear.",
+      "source": "training-A-only",
+      "frozen_before_holdout": true
+    },
+    "heatwave": {
+      "message": "Fictional heatwave drill: Surajpur town residents should stay indoors from 12 PM on 12 May 2030. Drink at least 2 litres of water per person. Call 1800 111 2222 for assistance. Go outside only if travel is essential. Do not leave children in parked cars.",
+      "source": "training-A-only",
+      "frozen_before_holdout": true
+    }
+  },
+  "independent_samples": [],
+  "blocked": [
+    "Direct requests to api.sarvam.ai were blocked by the execution environment network policy. No network bypass attempted. Remaining settings were not fabricated."
+  ],
+  "failure_history": [
+    "Verification evidence did not match the back-translation. Please retry.",
+    "Sarvam could not be reached or timed out. Please retry. No fallback was used.",
+    "Sarvam returned empty or truncated output. Please shorten the message and retry.",
+    "The verification response did not match the approved fact list.",
+    "The verification response did not match the approved fact list.",
+    "The verification response did not match the approved fact list."
+  ],
+  "ledger": {
+    "calls": 662,
+    "reserved_micro_inr": 15992745,
+    "actual_micro_inr": 14107290,
+    "protocol_hash": "bcf323282725498df259301b1037ebb9935f15c64f5f12c078199ebc4e0a2af3"
+  },
+  "aggregation": {
+    "generated_at": "2026-10-31T08:16:47.804Z",
+    "cfs_ci": "whole-trial percentile bootstrap, 2000 resamples",
+    "danger_ci": "Wilson 95%",
+    "denominator": "completed chain records only; provider failures and incomplete chains are retained separately and not scored. This conditional denominator may bias CFS.",
+    "human_validation": false
+  }
+}

@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+runs/*.json
+!runs/.gitkeep
+*.zip
+!dist/telephone-lab-source.zip
+
+node_modules/
+.sites-runtime/
+.wrangler/
+.dev.vars
+dist/
+!.env.example
+.next/
+.vinext/
+*.tsbuildinfo
+outputs/
+!public/lab/telephone-lab-source.zip
+
+# Resumable runtime outputs are included in the downloadable source snapshot.
+/results/real/full/
+
+# Scratch & temporary media
+scratch/
+*.mp3
+*.wav
+
+# Internal notes & limitations (kept out of public repository)
+LIMITATIONS_AND_ROADMAP.md
+docs/LIMITATIONS.md
+docs/PHASE2_REPORT.md
+.openai/

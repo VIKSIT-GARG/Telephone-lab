@@ -1,0 +1,1708 @@
+{
+  "dataset_version": 1,
+  "title": "Telephone Lab candidate hard-case fixtures",
+  "human_reviewed": false,
+  "headline_eligible": false,
+  "created_at": "2026-10-31",
+  "cases": [
+    {
+      "id": "hard-001",
+      "type": "time",
+      "source_message": "Fictional drill: 6 PM.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "6 PM",
+        "critical": true
+      },
+      "correct": "6 PM",
+      "mutated": "7 PM",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-002",
+      "type": "time",
+      "source_message": "Fictional drill: 18:00.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "18:00",
+        "critical": true
+      },
+      "correct": "18:00",
+      "mutated": "06:00",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-003",
+      "type": "time",
+      "source_message": "Fictional drill: शाम सवा छह बजे.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "शाम सवा छह बजे",
+        "critical": true
+      },
+      "correct": "शाम सवा छह बजे",
+      "mutated": "शाम साढ़े छह बजे",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-004",
+      "type": "time",
+      "source_message": "Fictional drill: सुबह साढ़े सात बजे.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "सुबह साढ़े सात बजे",
+        "critical": true
+      },
+      "correct": "सुबह साढ़े सात बजे",
+      "mutated": "शाम साढ़े सात बजे",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-005",
+      "type": "time",
+      "source_message": "Fictional drill: शाम पौने सात बजे.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "शाम पौने सात बजे",
+        "critical": true
+      },
+      "correct": "शाम पौने सात बजे",
+      "mutated": "शाम सवा सात बजे",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-006",
+      "type": "time",
+      "source_message": "Fictional drill: दोपहर डेढ़ बजे.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "दोपहर डेढ़ बजे",
+        "critical": true
+      },
+      "correct": "दोपहर डेढ़ बजे",
+      "mutated": "दोपहर ढाई बजे",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-007",
+      "type": "date",
+      "source_message": "Fictional drill: 2030-08-17.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "2030-08-17",
+        "critical": true,
+        "context": {
+          "anchor_date": "2030-08-17",
+          "tense": "future"
+        }
+      },
+      "correct": "2030-08-17",
+      "mutated": "2030-08-18",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-008",
+      "type": "date",
+      "source_message": "Fictional drill: 17 August 2030.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "17 August 2030",
+        "critical": true,
+        "context": {
+          "anchor_date": "2030-08-17",
+          "tense": "future"
+        }
+      },
+      "correct": "17 August 2030",
+      "mutated": "18 August 2030",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-009",
+      "type": "date",
+      "source_message": "Fictional drill: कल.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "कल",
+        "critical": true,
+        "context": {
+          "anchor_date": "2030-08-17",
+          "tense": "future"
+        }
+      },
+      "correct": "कल",
+      "mutated": "yesterday",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-010",
+      "type": "date",
+      "source_message": "Fictional drill: परसों.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "परसों",
+        "critical": true,
+        "context": {
+          "anchor_date": "2030-08-17",
+          "tense": "future"
+        }
+      },
+      "correct": "परसों",
+      "mutated": "tomorrow",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-011",
+      "type": "date",
+      "source_message": "Fictional drill: कल रात.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "कल रात",
+        "critical": true,
+        "context": {
+          "anchor_date": "2030-08-17",
+          "tense": "future"
+        }
+      },
+      "correct": "कल रात",
+      "mutated": "today",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-012",
+      "type": "date",
+      "source_message": "Fictional drill: today.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "today",
+        "critical": true,
+        "context": {
+          "anchor_date": "2030-08-17",
+          "tense": "future"
+        }
+      },
+      "correct": "today",
+      "mutated": "tomorrow",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-013",
+      "type": "numbers",
+      "source_message": "Fictional drill: 1,00,000.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "1,00,000",
+        "critical": true
+      },
+      "correct": "1,00,000",
+      "mutated": "10,000",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-014",
+      "type": "numbers",
+      "source_message": "Fictional drill: एक लाख.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "एक लाख",
+        "critical": true
+      },
+      "correct": "एक लाख",
+      "mutated": "दो लाख",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-015",
+      "type": "numbers",
+      "source_message": "Fictional drill: पैंतालीस.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "पैंतालीस",
+        "critical": true
+      },
+      "correct": "पैंतालीस",
+      "mutated": "चवालीस",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-016",
+      "type": "numbers",
+      "source_message": "Fictional drill: 2 से 3 मीटर.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "2 से 3 मीटर",
+        "critical": true
+      },
+      "correct": "2 से 3 मीटर",
+      "mutated": "3 से 4 मीटर",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-017",
+      "type": "numbers",
+      "source_message": "Fictional drill: 2.5 metres.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "2.5 metres",
+        "critical": true
+      },
+      "correct": "2.5 metres",
+      "mutated": "2.6 metres",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-018",
+      "type": "numbers",
+      "source_message": "Fictional drill: एक करोड़.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "एक करोड़",
+        "critical": true
+      },
+      "correct": "एक करोड़",
+      "mutated": "1 million",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-019",
+      "type": "phone",
+      "source_message": "Fictional drill: 98765 43210.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "98765 43210",
+        "critical": true
+      },
+      "correct": "98765 43210",
+      "mutated": "98765 43211",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-020",
+      "type": "phone",
+      "source_message": "Fictional drill: +91 98765-43210.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "+91 98765-43210",
+        "critical": true
+      },
+      "correct": "+91 98765-43210",
+      "mutated": "+91 98765-4321",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-021",
+      "type": "phone",
+      "source_message": "Fictional drill: ९८७६५४३२१०.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "९८७६५४३२१०",
+        "critical": true
+      },
+      "correct": "९८७६५४३२१०",
+      "mutated": "९८७६५४३२११",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-022",
+      "type": "phone",
+      "source_message": "Fictional drill: ௯௮௭௬௫௪௩௨௧௦.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "௯௮௭௬௫௪௩௨௧௦",
+        "critical": true
+      },
+      "correct": "௯௮௭௬௫௪௩௨௧௦",
+      "mutated": "௯௮௭௬௫௪௩௨௧௧",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-023",
+      "type": "phone",
+      "source_message": "Fictional drill: 1800-123-4567.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "1800-123-4567",
+        "critical": true
+      },
+      "correct": "1800-123-4567",
+      "mutated": "1800-123-4568",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-024",
+      "type": "phone",
+      "source_message": "Fictional drill: 1800 123 4567.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "1800 123 4567",
+        "critical": true
+      },
+      "correct": "1800 123 4567",
+      "mutated": "1800 123 456",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-025",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: 2 bottles per person.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "2 bottles per person",
+        "critical": true
+      },
+      "correct": "2 bottles per person",
+      "mutated": "2 bottles",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-026",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: 2 bottles per family.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "2 bottles per family",
+        "critical": true
+      },
+      "correct": "2 bottles per family",
+      "mutated": "2 bottles per person",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-027",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: 5 litres per hour.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "5 litres per hour",
+        "critical": true
+      },
+      "correct": "5 litres per hour",
+      "mutated": "5 litres",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-028",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: at least 2 bottles.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "at least 2 bottles",
+        "critical": true
+      },
+      "correct": "at least 2 bottles",
+      "mutated": "at most 2 bottles",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-029",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: at most 3 litres.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "at most 3 litres",
+        "critical": true
+      },
+      "correct": "at most 3 litres",
+      "mutated": "3 litres",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-030",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: प्रति व्यक्ति 2 बोतल.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "प्रति व्यक्ति 2 बोतल",
+        "critical": true
+      },
+      "correct": "प्रति व्यक्ति 2 बोतल",
+      "mutated": "प्रति परिवार 2 बोतल",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-031",
+      "type": "negation",
+      "source_message": "Fictional drill: Do not cross the bridge.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "Do not cross the bridge",
+        "critical": true
+      },
+      "correct": "Do not cross the bridge",
+      "mutated": "Cross the bridge",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-032",
+      "type": "negation",
+      "source_message": "Fictional drill: Not everyone must leave.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "Not everyone must leave",
+        "critical": true
+      },
+      "correct": "Not everyone must leave",
+      "mutated": "Everyone must leave",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-033",
+      "type": "negation",
+      "source_message": "Fictional drill: Do not return home.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "Do not return home",
+        "critical": true
+      },
+      "correct": "Do not return home",
+      "mutated": "Do not not return home",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-034",
+      "type": "negation",
+      "source_message": "Fictional drill: Never use the lift.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "Never use the lift",
+        "critical": true
+      },
+      "correct": "Never use the lift",
+      "mutated": "Use the lift",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-035",
+      "type": "negation",
+      "source_message": "Fictional drill: पुल पार मत करो.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "पुल पार मत करो",
+        "critical": true
+      },
+      "correct": "पुल पार मत करो",
+      "mutated": "पुल पार करो",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-036",
+      "type": "negation",
+      "source_message": "Fictional drill: Do not wait at home.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "Do not wait at home",
+        "critical": true
+      },
+      "correct": "Do not wait at home",
+      "mutated": "Do wait at home",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-037",
+      "type": "conditions",
+      "source_message": "Fictional drill: If water crosses the mark, leave.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "If water crosses the mark, leave",
+        "critical": true
+      },
+      "correct": "If water crosses the mark, leave",
+      "mutated": "Leave",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-038",
+      "type": "conditions",
+      "source_message": "Fictional drill: Leave only if the alarm sounds.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "Leave only if the alarm sounds",
+        "critical": true
+      },
+      "correct": "Leave only if the alarm sounds",
+      "mutated": "Leave if the alarm sounds",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-039",
+      "type": "conditions",
+      "source_message": "Fictional drill: Stay unless told otherwise.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "Stay unless told otherwise",
+        "critical": true
+      },
+      "correct": "Stay unless told otherwise",
+      "mutated": "Stay",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-040",
+      "type": "conditions",
+      "source_message": "Fictional drill: यदि पानी बढ़े तो निकलें.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "यदि पानी बढ़े तो निकलें",
+        "critical": true
+      },
+      "correct": "यदि पानी बढ़े तो निकलें",
+      "mutated": "निकलें",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-041",
+      "type": "conditions",
+      "source_message": "Fictional drill: Leave if water rises.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "Leave if water rises",
+        "critical": true
+      },
+      "correct": "Leave if water rises",
+      "mutated": "Leave unless water rises",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-042",
+      "type": "conditions",
+      "source_message": "Fictional drill: Bring water only if travelling.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "Bring water only if travelling",
+        "critical": true
+      },
+      "correct": "Bring water only if travelling",
+      "mutated": "Bring water",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-043",
+      "type": "certainty",
+      "source_message": "Fictional drill: Water will rise.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "Water will rise",
+        "critical": true
+      },
+      "correct": "Water will rise",
+      "mutated": "Water might rise",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-044",
+      "type": "certainty",
+      "source_message": "Fictional drill: Water might rise.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "Water might rise",
+        "critical": true
+      },
+      "correct": "Water might rise",
+      "mutated": "Water will rise",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-045",
+      "type": "certainty",
+      "source_message": "Fictional drill: Residents should leave.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "Residents should leave",
+        "critical": true
+      },
+      "correct": "Residents should leave",
+      "mutated": "Residents will leave",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-046",
+      "type": "certainty",
+      "source_message": "Fictional drill: शायद पानी बढ़े.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "शायद पानी बढ़े",
+        "critical": true
+      },
+      "correct": "शायद पानी बढ़े",
+      "mutated": "पानी बढ़ेगा",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-047",
+      "type": "certainty",
+      "source_message": "Fictional drill: The bus may arrive.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "The bus may arrive",
+        "critical": true
+      },
+      "correct": "The bus may arrive",
+      "mutated": "The bus will arrive",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-048",
+      "type": "certainty",
+      "source_message": "Fictional drill: Residents should stay.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "Residents should stay",
+        "critical": true
+      },
+      "correct": "Residents should stay",
+      "mutated": "Residents might stay",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-049",
+      "type": "places",
+      "source_message": "Fictional drill: Rampur village near the river.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "Rampur village near the river",
+        "critical": true
+      },
+      "correct": "Rampur village near the river",
+      "mutated": "Rampur village near the station",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-050",
+      "type": "places",
+      "source_message": "Fictional drill: Green Park village.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "Green Park village",
+        "critical": true
+      },
+      "correct": "Green Park village",
+      "mutated": "Green Park market",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-051",
+      "type": "places",
+      "source_message": "Fictional drill: Rampur East.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "Rampur East",
+        "critical": true
+      },
+      "correct": "Rampur East",
+      "mutated": "Rampur West",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-052",
+      "type": "places",
+      "source_message": "Fictional drill: Rose village.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "Rose village",
+        "critical": true
+      },
+      "correct": "Rose village",
+      "mutated": "Rose garden",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-053",
+      "type": "places",
+      "source_message": "Fictional drill: School shelter.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "School shelter",
+        "critical": true
+      },
+      "correct": "School shelter",
+      "mutated": "Hospital shelter",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-054",
+      "type": "places",
+      "source_message": "Fictional drill: Neelpur coastal village.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "Neelpur coastal village",
+        "critical": true
+      },
+      "correct": "Neelpur coastal village",
+      "mutated": "Neelpur inland village",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-055",
+      "type": "ordering",
+      "source_message": "Fictional drill: Wash hands then begin the drill.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Wash hands then begin the drill",
+        "critical": true
+      },
+      "correct": "Wash hands then begin the drill",
+      "mutated": "Begin the drill then wash hands",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-056",
+      "type": "ordering",
+      "source_message": "Fictional drill: Leave before the gate closes.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Leave before the gate closes",
+        "critical": true
+      },
+      "correct": "Leave before the gate closes",
+      "mutated": "Leave after the gate closes",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-057",
+      "type": "ordering",
+      "source_message": "Fictional drill: Call then evacuate.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Call then evacuate",
+        "critical": true
+      },
+      "correct": "Call then evacuate",
+      "mutated": "Evacuate then call",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-058",
+      "type": "ordering",
+      "source_message": "Fictional drill: Register then collect water.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Register then collect water",
+        "critical": true
+      },
+      "correct": "Register then collect water",
+      "mutated": "Collect water then register",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-059",
+      "type": "ordering",
+      "source_message": "Fictional drill: Check water then open valve.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Check water then open valve",
+        "critical": true
+      },
+      "correct": "Check water then open valve",
+      "mutated": "Open valve then check water",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-060",
+      "type": "ordering",
+      "source_message": "Fictional drill: Wait before boarding.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Wait before boarding",
+        "critical": true
+      },
+      "correct": "Wait before boarding",
+      "mutated": "Wait after boarding",
+      "expected": "altered",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-061",
+      "type": "additions",
+      "source_message": "Fictional drill: .",
+      "fact": {
+        "id": "f1",
+        "label": "additions",
+        "kind": "other",
+        "value": null,
+        "critical": true
+      },
+      "correct": "",
+      "mutated": "A cyclone is expected",
+      "expected": "invented",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-062",
+      "type": "additions",
+      "source_message": "Fictional drill: .",
+      "fact": {
+        "id": "f1",
+        "label": "additions",
+        "kind": "other",
+        "value": null,
+        "critical": true
+      },
+      "correct": "",
+      "mutated": "Transport is free",
+      "expected": "invented",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-063",
+      "type": "additions",
+      "source_message": "Fictional drill: .",
+      "fact": {
+        "id": "f1",
+        "label": "additions",
+        "kind": "other",
+        "value": null,
+        "critical": true
+      },
+      "correct": "",
+      "mutated": "Bring 5 bottles",
+      "expected": "invented",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-064",
+      "type": "additions",
+      "source_message": "Fictional drill: .",
+      "fact": {
+        "id": "f1",
+        "label": "additions",
+        "kind": "other",
+        "value": null,
+        "critical": true
+      },
+      "correct": "",
+      "mutated": "Cross the bridge",
+      "expected": "invented",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-065",
+      "type": "additions",
+      "source_message": "Fictional drill: .",
+      "fact": {
+        "id": "f1",
+        "label": "additions",
+        "kind": "other",
+        "value": null,
+        "critical": true
+      },
+      "correct": "",
+      "mutated": "Water will rise 3 metres",
+      "expected": "invented",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-066",
+      "type": "additions",
+      "source_message": "Fictional drill: .",
+      "fact": {
+        "id": "f1",
+        "label": "additions",
+        "kind": "other",
+        "value": null,
+        "critical": true
+      },
+      "correct": "",
+      "mutated": "Call 18001234567",
+      "expected": "invented",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-067",
+      "type": "time",
+      "source_message": "Fictional drill: 6 PM.",
+      "fact": {
+        "id": "f1",
+        "label": "time",
+        "kind": "time",
+        "value": "6 PM",
+        "critical": true
+      },
+      "correct": "6 PM",
+      "mutated": "18:00",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-068",
+      "type": "phone",
+      "source_message": "Fictional drill: +91 98765 43210.",
+      "fact": {
+        "id": "f1",
+        "label": "phone",
+        "kind": "phone",
+        "value": "+91 98765 43210",
+        "critical": true
+      },
+      "correct": "+91 98765 43210",
+      "mutated": "९८७६५४३२१०",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-069",
+      "type": "numbers",
+      "source_message": "Fictional drill: एक लाख.",
+      "fact": {
+        "id": "f1",
+        "label": "numbers",
+        "kind": "number",
+        "value": "एक लाख",
+        "critical": true
+      },
+      "correct": "एक लाख",
+      "mutated": "100000",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-070",
+      "type": "qualifiers",
+      "source_message": "Fictional drill: 2 bottles per person.",
+      "fact": {
+        "id": "f1",
+        "label": "qualifiers",
+        "kind": "quantity",
+        "value": "2 bottles per person",
+        "critical": true
+      },
+      "correct": "2 bottles per person",
+      "mutated": "two bottles per person",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-071",
+      "type": "negation",
+      "source_message": "Fictional drill: Do not return home.",
+      "fact": {
+        "id": "f1",
+        "label": "negation",
+        "kind": "action",
+        "value": "Do not return home",
+        "critical": true
+      },
+      "correct": "Do not return home",
+      "mutated": "Don't return home",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-072",
+      "type": "conditions",
+      "source_message": "Fictional drill: Leave only if water rises.",
+      "fact": {
+        "id": "f1",
+        "label": "conditions",
+        "kind": "condition",
+        "value": "Leave only if water rises",
+        "critical": true
+      },
+      "correct": "Leave only if water rises",
+      "mutated": "Only if water rises, leave",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-073",
+      "type": "certainty",
+      "source_message": "Fictional drill: Water might rise.",
+      "fact": {
+        "id": "f1",
+        "label": "certainty",
+        "kind": "certainty",
+        "value": "Water might rise",
+        "critical": true
+      },
+      "correct": "Water might rise",
+      "mutated": "Water may rise",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-074",
+      "type": "places",
+      "source_message": "Fictional drill: Rampur.",
+      "fact": {
+        "id": "f1",
+        "label": "places",
+        "kind": "place",
+        "value": "Rampur",
+        "critical": true,
+        "aliases": [
+          "रामपुर"
+        ]
+      },
+      "correct": "Rampur",
+      "mutated": "रामपुर",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-075",
+      "type": "date",
+      "source_message": "Fictional drill: 17 August 2030.",
+      "fact": {
+        "id": "f1",
+        "label": "date",
+        "kind": "date",
+        "value": "17 August 2030",
+        "critical": true
+      },
+      "correct": "17 August 2030",
+      "mutated": "August 17, 2030",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    },
+    {
+      "id": "hard-076",
+      "type": "ordering",
+      "source_message": "Fictional drill: Call then leave.",
+      "fact": {
+        "id": "f1",
+        "label": "ordering",
+        "kind": "order",
+        "value": "Call then leave",
+        "critical": true
+      },
+      "correct": "Call then leave",
+      "mutated": "Call, then leave",
+      "expected": "preserved",
+      "authorship": {
+        "author": "OpenAI coding assistant",
+        "method": "assistant-authored engineering fixture",
+        "human_review_status": "unreviewed",
+        "reviewer_id": null,
+        "reviewed_at": null
+      }
+    }
+  ]
+}

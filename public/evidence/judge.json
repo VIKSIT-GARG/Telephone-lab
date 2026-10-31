@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "model": "gemma4",
+  "model_family": "Gemma",
+  "provider": "Sarvam Token Factory",
+  "rubric_version": 1,
+  "checks": [
+    {
+      "id": "f1",
+      "verdict": "correct",
+      "reason": "The time '6 PM' is accurately preserved in the translation and back-translation.",
+      "automated_preserved": true,
+      "agrees": true
+    },
+    {
+      "id": "f2",
+      "verdict": "correct",
+      "reason": "The quantity '2 bottles per person' is accurately preserved as 'हर व्यक्ति 2 बोतल' and '2 bottles each'.",
+      "automated_preserved": false,
+      "agrees": false
+    },
+    {
+      "id": "f3",
+      "verdict": "correct",
+      "reason": "The restriction 'Do not cross the bridge' is accurately preserved.",
+      "automated_preserved": true,
+      "agrees": true
+    }
+  ],
+  "overall": "correct",
+  "agreements": 2,
+  "disagreements": 1,
+  "n": 3
+}

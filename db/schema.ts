@@ -1,0 +1,3 @@
+import {sqliteTable,text,integer,index} from 'drizzle-orm/sqlite-core';
+export const usageBuckets=sqliteTable('usage_buckets',{key:text('key').primaryKey(),used:integer('used').notNull(),expires:integer('expires').notNull()});
+export const reviews=sqliteTable('review_records',{id:text('id').primaryKey(),owner:text('owner').notNull(),reviewer:text('reviewer').notNull(),language:text('language').notNull(),caseHash:text('case_hash').notNull(),payload:text('payload').notNull(),created:integer('created').notNull(),expires:integer('expires').notNull()},t=>[index('review_owner_idx').on(t.owner),index('review_language_idx').on(t.language)]);

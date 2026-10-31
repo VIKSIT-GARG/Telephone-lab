@@ -1,0 +1,780 @@
+{
+  "provenance": "assistant-authored, human-unreviewed engineering fixtures",
+  "headline_eligible": false,
+  "human_reviewed_cases": 0,
+  "total_cases": 76,
+  "target_recall": 0.95,
+  "by_type": {
+    "time": {
+      "before": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 4,
+        "tn": 7,
+        "recall": 0.3333333333333333,
+        "precision": 1
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 7,
+      "n": 7
+    },
+    "date": {
+      "before": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 4,
+        "tn": 7,
+        "recall": 0.3333333333333333,
+        "precision": 1
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 7,
+      "n": 7
+    },
+    "numbers": {
+      "before": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 3,
+        "tn": 7,
+        "recall": 0.5,
+        "precision": 1
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 7,
+      "n": 7
+    },
+    "phone": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 7,
+      "n": 7
+    },
+    "qualifiers": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 7,
+      "n": 7
+    },
+    "negation": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1,
+        "precision": 0.8571428571428571
+      },
+      "exact_after": 6,
+      "n": 7
+    },
+    "conditions": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1,
+        "precision": 0.8571428571428571
+      },
+      "exact_after": 6,
+      "n": 7
+    },
+    "certainty": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1,
+        "precision": 0.8571428571428571
+      },
+      "exact_after": 6,
+      "n": 7
+    },
+    "places": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 1,
+      "n": 7
+    },
+    "ordering": {
+      "before": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0,
+        "precision": null
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 7,
+      "n": 7
+    },
+    "additions": {
+      "before": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1,
+        "precision": 1
+      },
+      "after": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1,
+        "precision": 1
+      },
+      "exact_after": 6,
+      "n": 6
+    }
+  },
+  "details": [
+    {
+      "id": "hard-001",
+      "type": "time",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-002",
+      "type": "time",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-003",
+      "type": "time",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-004",
+      "type": "time",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-005",
+      "type": "time",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-006",
+      "type": "time",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-007",
+      "type": "date",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-008",
+      "type": "date",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-009",
+      "type": "date",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-010",
+      "type": "date",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-011",
+      "type": "date",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-012",
+      "type": "date",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-013",
+      "type": "numbers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-014",
+      "type": "numbers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-015",
+      "type": "numbers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-016",
+      "type": "numbers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-017",
+      "type": "numbers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-018",
+      "type": "numbers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-019",
+      "type": "phone",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-020",
+      "type": "phone",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-021",
+      "type": "phone",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-022",
+      "type": "phone",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-023",
+      "type": "phone",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-024",
+      "type": "phone",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-025",
+      "type": "qualifiers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-026",
+      "type": "qualifiers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-027",
+      "type": "qualifiers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-028",
+      "type": "qualifiers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-029",
+      "type": "qualifiers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-030",
+      "type": "qualifiers",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-031",
+      "type": "negation",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-032",
+      "type": "negation",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-033",
+      "type": "negation",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-034",
+      "type": "negation",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-035",
+      "type": "negation",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-036",
+      "type": "negation",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-037",
+      "type": "conditions",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-038",
+      "type": "conditions",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-039",
+      "type": "conditions",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-040",
+      "type": "conditions",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-041",
+      "type": "conditions",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-042",
+      "type": "conditions",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-043",
+      "type": "certainty",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-044",
+      "type": "certainty",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-045",
+      "type": "certainty",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-046",
+      "type": "certainty",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-047",
+      "type": "certainty",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-048",
+      "type": "certainty",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-049",
+      "type": "places",
+      "expected": "altered",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-050",
+      "type": "places",
+      "expected": "altered",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-051",
+      "type": "places",
+      "expected": "altered",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-052",
+      "type": "places",
+      "expected": "altered",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-053",
+      "type": "places",
+      "expected": "altered",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-054",
+      "type": "places",
+      "expected": "altered",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-055",
+      "type": "ordering",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-056",
+      "type": "ordering",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-057",
+      "type": "ordering",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-058",
+      "type": "ordering",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-059",
+      "type": "ordering",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-060",
+      "type": "ordering",
+      "expected": "altered",
+      "actual": "altered",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-061",
+      "type": "additions",
+      "expected": "invented",
+      "actual": "invented",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-062",
+      "type": "additions",
+      "expected": "invented",
+      "actual": "invented",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-063",
+      "type": "additions",
+      "expected": "invented",
+      "actual": "invented",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-064",
+      "type": "additions",
+      "expected": "invented",
+      "actual": "invented",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-065",
+      "type": "additions",
+      "expected": "invented",
+      "actual": "invented",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-066",
+      "type": "additions",
+      "expected": "invented",
+      "actual": "invented",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-067",
+      "type": "time",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-068",
+      "type": "phone",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-069",
+      "type": "numbers",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-070",
+      "type": "qualifiers",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-071",
+      "type": "negation",
+      "expected": "preserved",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-072",
+      "type": "conditions",
+      "expected": "preserved",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-073",
+      "type": "certainty",
+      "expected": "preserved",
+      "actual": "unverified",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-074",
+      "type": "places",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-075",
+      "type": "date",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "hard-076",
+      "type": "ordering",
+      "expected": "preserved",
+      "actual": "preserved",
+      "review_status": "unreviewed"
+    }
+  ],
+  "known_weaknesses": [
+    {
+      "type": "negation",
+      "recall": 1,
+      "false_alarms": 1
+    },
+    {
+      "type": "conditions",
+      "recall": 1,
+      "false_alarms": 1
+    },
+    {
+      "type": "certainty",
+      "recall": 1,
+      "false_alarms": 1
+    }
+  ]
+}

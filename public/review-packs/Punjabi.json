@@ -1,0 +1,42 @@
+{
+  "format": "telephone-lab-native-review-v2",
+  "case_id": "3f8da83bdf25242ac506be1ba87aa40da4206d74facb1a77ca444792b963b556:7dd416b1e1067a85d764fb8e676023686ad11f1a7b865c4bfb476c27ba6a3d78:91314223da4f00491a78cd6d0c90bd6cd3dbf71b2a84c217accb86286ccd1e88",
+  "source_hash": "3f8da83bdf25242ac506be1ba87aa40da4206d74facb1a77ca444792b963b556",
+  "translation_hash": "7dd416b1e1067a85d764fb8e676023686ad11f1a7b865c4bfb476c27ba6a3d78",
+  "facts_hash": "91314223da4f00491a78cd6d0c90bd6cd3dbf71b2a84c217accb86286ccd1e88",
+  "source": "Fictional drill: Meet at the school by 6 PM. Bring 2 bottles per person. Do not cross the bridge.",
+  "language": "Punjabi",
+  "translation": "ਕਾਲਪਨਿਕ ਅਭਿਆਸ: ਸ਼ਾਮ 6 ਵਜੇ ਤੱਕ ਸਕੂਲ ਵਿੱਚ ਮਿਲੋ। ਹਰ ਵਿਅਕਤੀ 2 ਬੋਤਲਾਂ ਲਿਆਵੇ। ਪੁਲ ਪਾਰ ਨਾ ਕਰੋ।",
+  "back_translation": "Imaginary exercise: Meet at the school by 6 pm. Everyone bring 2 bottles. Don't cross the bridge.",
+  "critical_facts": [
+    {
+      "id": "f1",
+      "kind": "time",
+      "value": "6 PM",
+      "automated": "preserved",
+      "verdict": "",
+      "comment": ""
+    },
+    {
+      "id": "f2",
+      "kind": "quantity",
+      "value": "2 bottles per person",
+      "automated": "altered",
+      "verdict": "",
+      "comment": ""
+    },
+    {
+      "id": "f3",
+      "kind": "action",
+      "value": "Do not cross the bridge",
+      "automated": "preserved",
+      "verdict": "",
+      "comment": ""
+    }
+  ],
+  "reviewer_id": "",
+  "reviewed_at": "",
+  "native_speaker": false,
+  "consent": false,
+  "instructions": "A fluent human reviewer should independently read the source and native translation, assign correct/wrong/unclear to every critical fact, add comments, choose an anonymous ID, and record date/consent. Do not mark reviewed based only on automated checks."
+}

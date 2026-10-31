@@ -1,0 +1,8 @@
+.env
+.env.*
+.git
+.venv
+runs
+__pycache__
+.pytest_cache
+*.zip

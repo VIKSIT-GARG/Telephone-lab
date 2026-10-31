@@ -1,0 +1,1 @@
+declare namespace Cloudflare {interface Env {DB?:D1Database;BUCKET?:R2Bucket;SARVAM_API_KEY?:string;SARVAM_MODEL?:string;INDEPENDENT_JUDGE_ENABLED?:string;INDEPENDENT_JUDGE_MODEL?:string;DAILY_SPEND_CAP_INR?:string;PER_USER_DAILY_CALLS?:string;PER_USER_WINDOW_REQUESTS?:string;REVIEW_RETENTION_DAYS?:string;}}

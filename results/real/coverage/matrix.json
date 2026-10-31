@@ -1,0 +1,285 @@
+{
+  "mode": "real",
+  "date": "2026-10-31T07:28:23.339Z",
+  "minimum_cases": 3,
+  "languages": [
+    {
+      "language": "Hindi",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Make-believe exercise: meet at the school by 6 PM. Everyone bring two bottles. Don't cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Tamil",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 3,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 1,
+      "needs_review": false,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Imagination exercise: Come to school by 6 PM. Bring 2 bottles per person. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Bengali",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Dummy drill: Meet near the school by 6 PM. Bring 2 bottles per person. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Marathi",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Practice is canceled: meet at the school by 6 PM. Everyone, bring two bottles. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Telugu",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Hypothetical drill: Meet at the school by 6 PM. Bring two bottles each. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Kannada",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Fictitious drill: Meet at the school by 6 PM. Everyone bring 2 bottles each. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Malayalam",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 1,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.3333333333333333,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "See you at school at 6 PM. Bring two bottles each. Don't cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Gujarati",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Hypothetical exercise: Meet at the school by 6 PM. Everyone needs to bring 2 bottles. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "Punjabi",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 2,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 0.6666666666666666,
+      "needs_review": true,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Hypothetical exercise: Meet at school by 6 PM. Bring 2 bottles each. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    },
+    {
+      "language": "English",
+      "cases": 1,
+      "status": "automated-checks-only",
+      "testing": "limited testing",
+      "api_support": "prompted chat target; per-language API contract not independently verified",
+      "human_reviewers": 0,
+      "failures": [],
+      "fact_counts": {
+        "preserved": 3,
+        "total": 3,
+        "n": 1
+      },
+      "checker_pass_rate": 1,
+      "needs_review": false,
+      "script_digits": "Automated output available; native script/digit quality unreviewed",
+      "round_trip": {
+        "completed": true,
+        "text": "Fictional drill: Meet at the school by 6 PM. Bring 2 bottles per person. Do not cross the bridge."
+      },
+      "assessment": {
+        "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+        "checker_version": "2.0.0",
+        "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+        "date": "2026-10-31T07:36:46.697Z"
+      }
+    }
+  ],
+  "calls": 65,
+  "reserved_micro_inr": 828835,
+  "assessment": {
+    "mode": "current deterministic guards applied to cached real provider responses; no new API calls",
+    "checker_version": "2.0.0",
+    "code_hash": "c8bc8ee1814327410a021c64cbae40bf94850cb0a47737484c364605e5056373",
+    "date": "2026-10-31T07:36:46.697Z"
+  }
+}
